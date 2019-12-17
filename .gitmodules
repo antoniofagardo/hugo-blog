@@ -3,7 +3,3 @@
 	url = https://github.com/antoniofagardo/antoniofagardo.github.io.git
 	branch = master
 
-[submodule "arabica"]
-	path = arabica
-	url = https://github.com/nirocfz/arabica
-	branch = master
