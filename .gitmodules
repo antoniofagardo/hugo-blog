@@ -1,0 +1,9 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/antoniofagardo/antoniofagardo.github.io.git
+	branch = master
+
+[submodule "themes/arabica"]
+	path = themes/arabica
+	url = "https://github.com/slunsford/arabica"
+	branch = master
