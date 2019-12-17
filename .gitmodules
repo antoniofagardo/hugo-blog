@@ -6,4 +6,3 @@
 [submodule "themes/arabica"]
 	path = themes/arabica
 	url = https://github.com/nirocfz/arabica
-	branch = master
