@@ -1,8 +1,9 @@
 baseURL = "https://antoniofagardo.github.io/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Our Best Recipes"
 theme = "arabica"
 paginate = 3
+staticDir = "static"
 
 author = "Antoine Gosset"
 authorWebsite = ""
@@ -13,7 +14,7 @@ authorDescription = "Coder, Developper"
     post = "/post/:slug/"
 
 [params]
-    description = "A minimal Hugo theme"
+    description = "By Antoine & Laila"
     dateFormatToUse = "2006-01-02"
     replaceGoogleFonts = "fonts.loli.net"
 
