@@ -1,3 +1,10 @@
+## Dependencies
+
+Hugo must be installed
+
+    brew install hugo
+
+
 ## Cloning repo with submodules
 
     git clone https://github.com/antoniofagardo/hugo-blog.git --recurse-submodules
