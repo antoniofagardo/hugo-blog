@@ -16,4 +16,4 @@
 
 ## Adding a new post
 
-    hugo new posts/my-first-post.md
+    hugo new post/my-first-post.md
