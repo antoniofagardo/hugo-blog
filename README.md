@@ -1,3 +1,7 @@
+## Cloning repo with submodules
+
+    git clone https://github.com/antoniofagardo/hugo-blog.git --recurse-submodules
+
 ## Publishing new website version
 
     ./deploy.sh "My Commit Message"
@@ -9,3 +13,7 @@
 ## Start dev server
 
     hugo server
+
+## Adding a new post
+
+    hugo new posts/my-first-post.md
