@@ -1,26 +1,52 @@
+# Hugo Blog
+
+Hugo is a static website generator in Markdown. It's very easy to get started, it has hundreds of free template available and your can publish your static website for free on Github!
+
+
 ## Dependencies
 
-Hugo must be installed
+Hugo must be installed! Please refer to this page for more information:
 
-    brew install hugo
+https://gohugo.io/
 
 
-## Cloning repo with submodules
+1. For MacOS:
 
-    git clone https://github.com/antoniofagardo/hugo-blog.git --recurse-submodules
+        brew install hugo
 
-## Publishing new website version
+2. For Windows:
 
-    ./deploy.sh "My Commit Message"
+        choco install hugo -confirm
 
-## Adding a new theme
+3. For linux:
 
-    git submodule add https://github.com/nirocfz/arabica themes/arabica
+        snap install hugo
 
-## Start dev server
 
-    hugo server
+## Getting started
 
-## Adding a new post
+1. Clone this repository with recursion for submodules
 
-    hugo new post/my-first-post.md
+        git clone https://github.com/antoniofagardo/hugo-blog.git --recurse-submodules && cd hugo-blog
+
+2. Brownse the themes available and choose one that you like
+
+    https://themes.gohugo.io/
+
+3. Let's add this new theme to our repo as a submodule as we want to stay up-to-date
+
+        git submodule add https://github.com/nirocfz/arabica themes/arabica
+
+4. Add a new post! It's simple and easy:
+
+        hugo new post/my-first-post.md
+
+5. Once you are satisfied with your post, fire-up the server and check in your brownser to see how it looks:
+
+        hugo server
+
+6. Make sure you commit your changes to the main repo and stash anything left before publishing
+
+7. Publish your new website version with the following command:
+
+        ./deploy.sh "My Commit Message"
