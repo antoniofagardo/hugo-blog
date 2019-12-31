@@ -21,7 +21,12 @@ authorDescription = "Coder, Developper"
 [[menu.main]]
     name = "Food"
     url = "/tags/food"
-    weight = 100
+    weight = 20
+
+[[menu.main]]
+    name = "Development"
+    url = "/tags/development"
+    weight = 80
 
 [[menu.main]]
     name = "Home"
