@@ -1,20 +1,18 @@
 ---
-title: "Setting Up Docker Dev Environment"
-date: 2019-12-30T21:24:24-08:00
-draft: false
+title: Setting Up Docker Dev Environment
+date: 2019-12-30T21:24:24.000-08:00
 image: "/uploads/docker-compose.jpg"
-tags: ["development"]
+tags:
+- development
+
 ---
-
-This is a walkthrough to setup a new Python dev environment with Docker
-
+This is a walkthrough to setup a new Python dev environment with Docker**
 
 ## Requirements:
 
 Docker Desktop installed
 
     https://docs.docker.com/docker-for-mac/install/
-
 
 ## Getting started
 
@@ -41,13 +39,13 @@ Let's create a started flask project
 Open the `app.py` file and put the following content:
 
     from flask import Flask
-
+    
     app = Flask(__name__)
-
+    
     @app.route('/')
     def hello_world():
         return 'Hello world!'
-
+    
     if __name__ == '__main__':
         app.run(host='0.0.0.0')
 
@@ -56,8 +54,6 @@ Open the `requirements.txt` file and put the following content:
     Flask==1.1.1
     yapf==0.29.0
     pylint==2.4.4
-
-
 
 ## Docker commands
 
